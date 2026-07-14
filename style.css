@@ -67,7 +67,7 @@ header{
     width:90%;
     max-width:1200px;
     margin:auto;
-    min-height:100vh;
+    min-height:85vh;
 
     display:flex;
     justify-content:space-between;
@@ -85,8 +85,8 @@ header{
 }
 
 .hero-text h1{
-    font-size:60px;
-    margin:10px 0;
+    font-size:70px;
+    line-height:1.1;
 }
 
 .hero-text h2{
@@ -139,9 +139,12 @@ header{
 }
 
 .hero-image img{
-    width:340px;
+     width:450px;
+    height:450px;
+    object-fit:cover;
     border-radius:50%;
     border:6px solid #38bdf8;
+    box-shadow:0 0 30px rgba(56,189,248,.5);
 }
 
 /* Sections */
